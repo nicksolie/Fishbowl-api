@@ -1,4 +1,4 @@
-class WordsController < ApplicationController
+class WordsController < ProtectedController
   before_action :set_word, only: %i[show update destroy]
 
   # GET /words
@@ -15,7 +15,7 @@ class WordsController < ApplicationController
 
   # POST /words
   def create
-    @word = Word.new(word_params)
+    @word = current_user.words.build(word_params)
 
     if @word.save
       render json: @word, status: :created, location: @word
@@ -42,7 +42,7 @@ class WordsController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_word
-    @word = Word.find(params[:id])
+    @word = current_user.words.find(params[:id])
   end
 
   # Only allow a trusted parameter "white list" through.
