@@ -1,5 +1,5 @@
 class WordsController < ProtectedController
-  before_action :set_word, only: %i[show update destroy]
+  before_action :set_word, only: %i[update destroy]
 
   # GET /words
   def index
@@ -10,7 +10,7 @@ class WordsController < ProtectedController
 
   # GET /words/1
   def show
-    render json: @word
+    render json: current_user.words.find(params[:id])
   end
 
   # POST /words
@@ -18,7 +18,7 @@ class WordsController < ProtectedController
     @word = current_user.words.build(word_params)
 
     if @word.save
-      render json: @word, status: :created, location: @word
+      render json: @word, status: :created
     else
       render json: @word.errors, status: :unprocessable_entity
     end
@@ -36,6 +36,8 @@ class WordsController < ProtectedController
   # DELETE /words/1
   def destroy
     @word.destroy
+
+    head :no_content
   end
 
   private
