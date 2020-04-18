@@ -31,7 +31,7 @@ I’m excited to see where this project goes over time. I believe once I complet
 *Styling*
 - Create a footer that contains the change password feature once logged in.
 - Make the instruction section scalable for mobile.
-- Alter font size so it is more accessible for visually impaired
+- Alter font size so it is more accessible for visually impaired.
 - Relocate alerts so they are closer to action buttons.
 
 
