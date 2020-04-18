@@ -2,7 +2,7 @@
 
 Fishbowl is a family-friendly party game that combines Charades, Password and Taboo. Players are split into two teams and have their score tracked through all three rounds. When a word is correctly guessed the player who scores adds a point to their team. The team with the most points wins!
 
-**You can play** [here](https://nicksolie.github.io/fishbowl-client/)  
+**You can play** [here](https://nicksolie.github.io/fishbowl-client/)
 
 **API Client** [here](https://github.com/nicksolie/fishbowl-client)
 
@@ -16,19 +16,6 @@ I’m excited to see where this project goes over time. I believe once I complet
 ## ERD
 
 *ERD:* [https://imgur.com/a/YwoO3HC]( "ERD")
-
-## Screenshots
-
-*Sign Up / Login:*
-
-![](assets/images/project2_login_pic.jpeg "Sign Up / Login Page")
-
-
-*In-Game:*
-
-![](assets/images/project2_words_pic.jpeg "In-Game")
-###### These screenshots are a work from a work in progress and may not reflect the current version.
-
 
 ## Future Iterations
 
