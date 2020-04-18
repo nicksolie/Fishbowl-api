@@ -2,7 +2,8 @@
 
 Fishbowl is a family-friendly party game that combines Charades, Password and Taboo. Players are split into two teams and have their score tracked through all three rounds. When a word is correctly guessed the player who scores adds a point to their team. The team with the most points wins!
 
-**You can play** [here](https://nicksolie.github.io/fishbowl-client/)
+**You can play** [here](https://nicksolie.github.io/fishbowl-client/)  
+
 **API Client** [here](https://github.com/nicksolie/fishbowl-client)
 
 ### Development
