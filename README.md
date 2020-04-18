@@ -7,7 +7,7 @@ Fishbowl is a family-friendly party game that combines Charades, Password and Ta
 
 ### Development
 
-tackled this application with the lessons I learned from my tic-tac-toe project: more planning, sudo-coding and collaboration. I spent a chunk of my first day just scheduling and making a list of questions I had to resolve.  Using this approach I was able to solve out-loud a few requirements I was unsure about. As I starting coding, I would hit an issue I had already expounded on and be able to ask better questions.
+I tackled this application with the lessons I learned from my tic-tac-toe project: more planning, pseudo-coding and collaboration. I spent a chunk of my first day just scheduling and making a list of questions I had to resolve.  Using this approach I was able to solve out loud a few requirements I was unsure about. As I starting coding, I would hit an issue I had already expounded on and be able to ask better questions.
 
 I’m excited to see where this project goes over time. I believe once I complete further iterations I’ll have a fantastic app.
 
