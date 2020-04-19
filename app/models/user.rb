@@ -3,4 +3,5 @@
 class User < ApplicationRecord
   include Authentication
   has_many :words
+  has_many :players
 end

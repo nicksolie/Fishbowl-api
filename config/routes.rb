@@ -2,6 +2,7 @@
 
 Rails.application.routes.draw do
 
+  resources :players, except: %i[new edit]
   # game routes
   resources :games, except: %i[new edit]
   # Words routes

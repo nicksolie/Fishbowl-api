@@ -6,9 +6,9 @@ curl "http://localhost:4741/players" \
   --header "Content-Type: application/json" \
   --data '{
     "player": {
-      "users_id": "'"${USERSID}"'",
-      "team_id": "'"${TEAMID}"'",
-      "games_id": "'"${GAMESID}"'"
+      "user_id": "'"${USERID}"'",
+      "team": "'"${TEAMID}"'",
+      "game_id": "'"${GAMEID}"'"
     }
   }'
 
