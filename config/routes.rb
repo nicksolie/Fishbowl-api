@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+
+  # game routes
   resources :games, except: %i[new edit]
   # Words routes
   resources :words, except: %i[new edit]
