@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-
   resources :players, except: %i[new edit]
   # game routes
   resources :games, except: %i[new edit]
+  # get '/games/:id' => 'games#show'
   # Words routes
   resources :words, except: %i[new edit]
   # RESTful routes
